@@ -1,0 +1,35 @@
+<!--
+<head>
+  <script src="https://kit.fontawesome.com/ec4fab33b9.js" crossorigin="anonymous"></script>
+</head>
+-->
+
+
+<body>
+  <header>
+    <nav>
+
+          <div class="flex_container">
+
+            <div class="logo"><a routerLink="/imdb/BackHome"><img src="../assets/logo.png" alt="Logo" class="header_logo"></a></div>
+
+            <div class="recherche">
+
+              <select [(ngModel)]="selector">
+                <option value="0">Films</option>
+                <option value="1">Séries</option>
+              </select>
+
+                <input type="text" class="input" [(ngModel)]="search" placeholder="Recherche">
+                <button (click)="submit()">Search</button>
+
+            </div>
+
+          </div>
+
+
+  </nav>
+
+  </header>
+
+  </body>

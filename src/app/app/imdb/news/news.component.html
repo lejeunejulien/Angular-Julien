@@ -1,0 +1,36 @@
+<br>
+<h1>Coming Soon</h1>
+<br>
+<a (click)="info('coming')" routerLinkActive="routerLinkActive"><img src="{{img_comingsoon}}" class="dim_img_home"></a>
+<br>
+<button (click)="next('coming')">Suivant</button>
+<button (click)="previous('coming')">Précédent</button>
+<br>
+<br>
+
+<h1>Box Office</h1>
+<br>
+<a (click)="info('box')" routerLinkActive="routerLinkActive"><img src="{{img_box_office}}" class="dim_img_home"></a>
+<br>
+<button (click)="next('box')">Suivant</button>
+<button (click)="previous('box')">Précédent</button>
+<br>
+<br>
+
+<router-outlet></router-outlet>
+
+
+
+
+
+
+<!--
+<h1>Coming Soon</h1>
+<br>
+<a [routerLink]="['./comingsoon/id',id_comingsoon]"><img src="{{img_comingsoon}}" class="dim_img_home"></a>
+<br>
+<button (click)="next('coming')">Suivant</button>
+<button (click)="previous('coming')">Précédent</button>
+<br>
+<br>
+-->

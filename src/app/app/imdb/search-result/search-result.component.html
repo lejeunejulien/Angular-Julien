@@ -1,0 +1,21 @@
+
+<p>{{title}}</p>
+<p>{{year}}</p>
+<img src="{{img}}" class="dim_img_home">
+
+
+<p>Actors</p>
+<ul>
+  <div *ngFor="let star of starList | slice:0:3; let cpt=index">
+    <p>{{star.name}}</p>
+  </div>
+</ul>
+<br>
+<p>Synospis : {{synopsis}}</p>
+<br>
+<p>Director : {{directors[0].name}}</p>
+<br>
+<p>Writer : {{writers[0].name}}</p>
+
+
+

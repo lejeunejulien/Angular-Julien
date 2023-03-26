@@ -1,0 +1,248 @@
+
+body {
+	font-size: 100%;
+	font-family: Liberation Sans;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+header {
+	background-color: #3A75B0;
+	height: 110px;
+}
+
+@media screen and (min-width : 1024px) and (orientation: landscape){
+	header {
+		height: 95px;
+	}
+}
+
+.flex_container {
+	display: flex;
+}
+
+
+.logo {
+	display: flex;
+	align-self: center;
+}
+
+
+.header_logo {
+	width: 5.5rem;
+}
+
+.menu {
+	display: flex;
+	flex-direction: column;
+	align-self: flex-start;
+	margin-left: 3%;
+	font-size: 130%;
+}
+
+@media screen and (min-width : 1024px) and (orientation: landscape){
+	.menu {
+		margin-top: 0.15%;
+		flex-direction: row;
+		align-self: center;
+		font-size: 130%;
+	}
+}
+
+.flex_grow1 {
+	flex-grow: 1;
+}
+
+.flex_grow2 {
+	flex-grow: 2;
+}
+
+.recherche {
+	display: flex;
+	align-self: flex-end;
+}
+
+@media screen and (min-width : 1024px) and (orientation: landscape){
+	.recherche {
+		justify-content: flex-end;
+		align-self: center;
+		margin-right: 15px;
+	}
+}
+
+.input {
+	width: 200px;
+	height: 30px;
+}
+
+
+.nav_link {
+	color: white;
+	text-decoration-line: none;
+	margin: 0 3% 0 3%;
+}
+
+nav{
+	padding: 1.5% 1% 0 1%;
+}
+
+
+
+.central {
+	display: flex;
+	flex-direction: column;
+
+}
+@media screen and (min-width : 1024px) and (orientation: landscape){
+	.central {
+		flex-direction :row;
+		margin : 2% 4% 2% 4%;
+	}
+}
+
+
+
+aside {
+	flex-grow:1;
+	margin: 1%;
+	font-size: 95%;
+}
+
+aside > section {
+	/*background-color: springgreen;*/
+	margin: 1% 5.5% 0 5%;
+	font-size: 95%;
+}
+
+
+main{
+	width: 96%;
+	padding:1%;
+}
+@media screen and (min-width: 1024px) and (orientation: landscape) {
+	main {
+		width: 75%;
+		padding: 1%;
+	}
+}
+
+.link {
+	color: #316B8F;
+	text-decoration-line: none;
+}
+
+.debut {
+	margin : 0 3% 0 2%;
+	font-size: 95%;
+}
+
+
+.infos {
+	background-color: #FFFFCE;
+	border: 1.5px solid #F0C000;
+	padding: 2% 5% 2% 5%;
+	margin : 3% 1% 2% 1%;
+	font-size: 96%;
+}
+
+.telecharger {
+	background-color: #D9E5EA;
+	text-align: center;
+	padding: 2% 17% 2% 17%;
+	margin : 3% 1% 2% 1%;
+}
+
+.texte_telecharger {
+	padding : 0 3% 1.5% 3%;
+	font-size: 92%;
+}
+
+.button {
+	background-color: #198754;
+	color : white;
+	font-size: 90%;
+	height : 2.5rem;
+	width: 200px;
+	border: none;
+}
+
+.autres {
+	margin : 3% 1% 2% 1%;
+	font-size: 92%;
+}
+
+
+h1{
+font-size:180%;
+}
+
+h2{
+font-size:130%;
+}
+
+.blue {
+	color: blue;
+}
+
+.dark_blue {
+	color: #00008B;
+}
+
+
+
+
+footer {
+	background-color: #EEEEEE;
+	height :150px;
+	padding:1%;
+	font-size: 73%;
+
+}
+@media screen and (min-width: 1024px) and (orientation: landscape) {
+	footer {
+		height :75px;
+		padding: 1%;
+		font-size: 73%;
+	}
+}
+
+
+.flex_container2 {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+
+@media screen and (min-width: 1024px) and (orientation: landscape) {
+	.flex_container2 {
+		flex-direction: row;
+		justify-content: center;
+	}
+}
+
+.part1 {
+	display: flex;
+	justify-content: center;
+}
+
+
+.part2 {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+
+.flex_item {
+	padding: 5px;
+}
+
+
+
+
+
+
+
